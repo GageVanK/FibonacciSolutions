@@ -15,7 +15,7 @@ public class Thread1 extends Thread{
 	
 	public  void run()
 	{
-		//Calls fib() & Calculates the time it takes to run in nanoseconds
+		//Calculates the time it takes to run in nanoseconds
 		long startTime = (long) System.nanoTime();
 		long recursiveSolution = fib(9);
 		long endTime = (long) System.nanoTime();
